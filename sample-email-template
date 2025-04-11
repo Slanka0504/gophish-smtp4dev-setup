@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <p>Hello,</p>
+    <p>Your account needs verification. Click the link below:</p>
+    <a href="{{.URL}}">Verify Account</a>
+    {{.Tracker}}
+  </body>
+</html>
