@@ -73,3 +73,5 @@ docker run --rm -it -p 3000:80 -p 25:25 rnwood/smtp4dev
     Open smtp4dev in browser: http://localhost:3000
 
     View emails, click links, track opens/clicks
+
+   // you might not be able to view live tracking metric while using smtp4dev as it is a fake server and doesn't send eamils actual email. You can however see the emails you've sent on the messages section and click on the links. To be able to actually send emails to clients (ethically), you can explore other smtp servers like mailhog, gmail etc.
